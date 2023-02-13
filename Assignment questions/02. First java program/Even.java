@@ -5,7 +5,7 @@ public class Even{
     public static void main(String[] args) {
         Scanner n = new Scanner(System.in);
         System.out.println("Enter a Number: ");
-        int no = n.nextInt();
+        int no = n.nextInt(10);
         if(no%2==0){
             System.out.println(no + " is even");
         }
