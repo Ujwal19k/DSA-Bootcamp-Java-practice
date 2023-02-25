@@ -74,6 +74,5 @@ public class Q1_Area {
         }
     }while(ch!=8);
     System.out.println("\nExited........\n");
-    
     }
 }
