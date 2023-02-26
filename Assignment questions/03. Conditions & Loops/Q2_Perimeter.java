@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*Perimeter Of Circle, Equilateral Triangle, Parallelogram, Rectangle, Square, Rhombus */
-public class Perimeter {
+public class Q2_Perimeter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int ch;
