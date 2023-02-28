@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /* Area Of Circle, Triangle, Rectangle, Isosceles Triangle, Parallelogram,
-Rhombus, Equilateral Triangle */
+Rhombus, Equilateral Triangle in Java*/
 
 
 
