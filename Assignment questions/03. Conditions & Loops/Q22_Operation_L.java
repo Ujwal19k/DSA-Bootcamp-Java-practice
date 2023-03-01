@@ -1,5 +1,6 @@
 //Subtract the Product and Sum of Digits of an Integer
-//Leetcode: 1281. Subtract the Product and Sum of Digits of an Integer
+//Leetcode: 1281. Subtract the Product and Sum of Digits of an Integer 
+//Link: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 import java.util.Scanner;
 
 public class Q22_Operation_L {
