@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /* Area Of Circle, Triangle, Rectangle, Isosceles Triangle, Parallelogram,
-Rhombus, Equilateral Triangle */
+Rhombus, Equilateral Triangle in Java*/
 
 
 
@@ -73,6 +73,6 @@ public class Q1_Area {
                 break;
         }
     }while(ch!=8);
-    System.out.println("\nExited........\n");
+    System.out.println("\nExited..........\n");
     }
 }
