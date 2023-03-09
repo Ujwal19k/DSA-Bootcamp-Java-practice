@@ -59,6 +59,7 @@ public class Q3_Volume {
                 float PyrVol = (Pyrlength*Pyrbase*Pyrheight);
                 System.out.println("The Volume of Pyramid is: "+PyrVol);
                 break;
+                
         }
         }while(ch!=6);
         System.out.println("\nExited........\n");
