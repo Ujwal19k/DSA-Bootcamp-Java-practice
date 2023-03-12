@@ -6,6 +6,7 @@ public class Q03_Average {
         Scanner sc = new Scanner(System.in);
         int count=0;
         float sum=0;
+        
 
         while(true){
             System.out.print("Enter the number (press 0 for output): ");
