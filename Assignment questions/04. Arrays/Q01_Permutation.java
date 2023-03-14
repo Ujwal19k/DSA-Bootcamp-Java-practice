@@ -1,4 +1,5 @@
-// /Build Array from Permutation - L
+// /Build Array from Permutation - Leetcode done
+// /https://leetcode.com/problems/build-array-from-permutation/
 public class Q01_Permutation {
         public int[] buildArray(int[] nums) {
             //int[] nums ={0,2,1,5,3,4};
