@@ -3,7 +3,7 @@
 
 
 //this is wrong solution 
-//we'll have to use S
+//we'll have to use different concept like hashmap
 public class Q10_Pangram {
     public static void main(String[] args) {
         String str="ujwal";
