@@ -11,6 +11,7 @@ class Solution {
                 //for every iteration i there should be another iteration starting from i+ in the same array
                 if(nums[i]==nums[j]){
                 count++;
+                    
             }
             }
         }
