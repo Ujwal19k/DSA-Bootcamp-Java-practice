@@ -1,4 +1,4 @@
-package com.kunal;
+
 
 public class Ceiling {
 
@@ -6,7 +6,7 @@ public class Ceiling {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
         int target = 15;
         int ans = ceiling(arr, target);
-        System.out.println(ans);
+        System.out.println(arr[ans]);
     }
 
     // return the index of smallest no >= target
