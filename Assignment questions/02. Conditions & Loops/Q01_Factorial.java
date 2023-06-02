@@ -11,6 +11,5 @@ public class Q01_Factorial {
             fact *= i;
         }
         System.out.println("The factorial is: " + fact);
-        
     }
 }
