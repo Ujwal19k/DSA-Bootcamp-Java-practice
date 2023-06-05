@@ -1,6 +1,8 @@
 // 989. Add to Array-Form of Integer
 // /https://leetcode.com/problems/add-to-array-form-of-integer/description/
 
+import java.util.LinkedList;
+
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
         LinkedList<Integer> listt = new LinkedList<Integer>();
