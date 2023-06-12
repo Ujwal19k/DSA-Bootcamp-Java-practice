@@ -8,12 +8,17 @@ class Solution {
         int n = nums.length;
         int start = 0;
         int end = n - 1;
+        int index = -1;
         int minVal = Integer.MAX_VALUE;
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
             if (nums[start] < nums[end]) {
-                minVal = Math.min(minVal, nums[start]);
+                // minVal = Math.min(minVal, nums[start]);
+                if (nums[start] < minVal) {
+                    minVal = nums[start];
+                    index = start;
+                }
                 break;
             }
 
@@ -22,10 +27,18 @@ class Solution {
             // now storing this min in a variable and comparing with thr right sub array
 
             if (nums[start] <= nums[mid]) {
-                minVal = Math.min(minVal, nums[start]);
+                // minVal = Math.min(minVal, nums[start]);
+                if (nums[start] < minVal) {
+                    minVal = nums[start];
+                    index = start;// this is to find the index
+                }
                 start = mid + 1;
             } else {
-                minVal = Math.min(minVal, nums[mid]);
+                // minVal = Math.min(minVal, nums[mid]);
+                if (nums[mid] < minVal) {
+                    minVal = nums[mid];
+                    index = start;
+                }
                 end = mid - 1;
             }
         }

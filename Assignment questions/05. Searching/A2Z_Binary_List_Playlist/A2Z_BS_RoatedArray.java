@@ -15,11 +15,11 @@ class Solution {
             }
 
             // if have duplicates. therefore trim the array size
-            if (nums[start] == nums[mid] && nums[mid] == nums[end]) {
-                start = start + 1;
-                end = end - 1;
-                continue;
-            }
+            // if (nums[start] == nums[mid] && nums[mid] == nums[end]) {
+            // start = start + 1;
+            // end = end - 1;
+            // continue;
+            // }
 
             // if have to check if the left side or the right side of the mid is sorted
             if (nums[start] <= nums[mid]) { // means that the left side from the mid is sorted
