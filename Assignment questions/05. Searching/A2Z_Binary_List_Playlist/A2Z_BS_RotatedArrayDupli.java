@@ -1,17 +1,16 @@
-// 33. Search in Rotated Sorted Array
-// https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-// TUF-
-// https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/
-//GFG - https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
+// 81. Search in Rotated Sorted Array II
+// https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+// https://practice.geeksforgeeks.org/problems/search-in-rotated-array-2/1
+// https://www.youtube.com/watch?v=w2G2W8l__pc
 class Solution {
-    public int search(int[] nums, int target) {
+    public boolean search(int[] nums, int target) {
         int n = nums.length;
         int start = 0;
         int end = n - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (nums[mid] == target) {
-                return mid;
+                return true;
             }
 
             // if have duplicates. therefore trim the array size
@@ -37,6 +36,6 @@ class Solution {
                 }
             }
         }
-        return -1;
+        return false;
     }
 }
