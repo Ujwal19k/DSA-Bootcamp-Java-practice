@@ -5,6 +5,7 @@ public class BinarySearch {
         int arr[] = { 2, 3, 7, 10, 13, 14, 17 };
         int k = 14;
 
+
         // Binary search
         int n = arr.length - 1;
         int start = 0, end = n;
