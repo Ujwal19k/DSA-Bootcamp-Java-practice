@@ -1,11 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "Lecture_notes/05. Searching/5.2_binary search",
         "Assignment questions/08. Patterns",
         "Assignment questions/05. Searching",
         "Assignment questions/04. Arrays",
         "Assignment questions/03. Functions",
         "Assignment questions/02. Conditions & Loops",
         "Assignment questions/01. Introduction to java",
-        "Lecture_notes/05. Searching/5.2_binary search"
+        "Practice_LeetCode_GFG/04. Arrays"
     ]
 }
