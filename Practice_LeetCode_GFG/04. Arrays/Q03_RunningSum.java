@@ -8,6 +8,7 @@ class Solution {
             nums[i]+=nums[i-1];
         }
         System.gc();
+        
         return nums;
         
     }}
